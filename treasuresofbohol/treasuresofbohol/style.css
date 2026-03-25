@@ -17,12 +17,12 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: green;
+    background-color: #1E6B3A;
     padding: 10px 50px;
     position: sticky;
     top: 0;
     z-index: 1000;
-    background: green;
+    background: #1E6B3A;
     backdrop-filter: blur(10px);
 }
 
@@ -174,7 +174,7 @@ body {
 }
 
 .learnMoreButton button {
-    color: green;
+    color: #1E6B3A;
     font-size: 15px;
     text-align: center;
     padding: 10px 20px;
@@ -246,7 +246,7 @@ body {
     display: inline-block;
     margin-top: 10px;
     text-decoration: none;
-    color: green;
+    color: #1E6B3A;
     font-weight: bold;
     font-size: 14px;
     position: relative;
@@ -260,7 +260,7 @@ body {
     bottom: -2px;
     width: 0;
     height: 2px;
-    background: green;
+    background: #1E6B3A;
     transition: width 0.3s ease;
 }
 
@@ -336,7 +336,7 @@ body {
 }
 
 .lastSect{
-    background-color: rgb(30, 114, 30);
+    background-color: #1E6B3A;
     padding: 2% 5%;
 }
 
@@ -380,7 +380,7 @@ body {
 
 
 footer{
-    background-color: rgb(30, 114, 30);
+    background-color: #1E6B3A;
     padding: 1% 5%;
     color: white;
 }
@@ -401,9 +401,13 @@ footer{
 /*CRAFTS*/
 
 .coverTitle img{
+    margin-top: 100px;
     width: 90px;
 }
-
+.coverTitle1 img{
+    margin-bottom: 90px;
+    width: 200px;
+}
 .lastCont{
     padding-top: 30px;
     padding-bottom: 80px;
