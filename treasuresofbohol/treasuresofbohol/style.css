@@ -140,9 +140,6 @@ body {
     text-align: center;
 }
 
-.coverTitle1 img{
-    width: 21px;
-}
 
 .headings h1 {
     font-size: 30px;
@@ -427,3 +424,11 @@ footer{
     font-size: 20px;
 }
 
+.sdgSection{
+    text-align: center;
+    padding-top: 5%;
+}
+
+.vmlist h1{
+    font-size: 50px;
+}
