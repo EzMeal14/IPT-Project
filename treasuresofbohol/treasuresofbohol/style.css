@@ -140,6 +140,10 @@ body {
     text-align: center;
 }
 
+.coverTitle1 img{
+    width: 21px;
+}
+
 .headings h1 {
     font-size: 30px;
 
