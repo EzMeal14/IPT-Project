@@ -432,3 +432,8 @@ footer{
 .vmlist h1{
     font-size: 50px;
 }
+
+.list1 ul li a{
+    text-decoration: underline;
+    color: white;
+}
