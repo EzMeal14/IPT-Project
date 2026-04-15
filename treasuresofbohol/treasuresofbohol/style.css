@@ -638,121 +638,115 @@ footer{
 }
 
 
-/* 📱 MOBILE (max-width: 768px) */
+/* ================= HAMBURGER ================= */
+
+.menu-toggle {
+    display: none;
+    font-size: 28px;
+    color: white;
+    cursor: pointer;
+}
+
+/* ================= MOBILE RESPONSIVENESS ================= */
 
 @media (max-width: 768px) {
-
+    /* 1. Navbar & Toggle */
     .navbar {
-        flex-direction: column;
         padding: 10px 20px;
+        flex-direction: row;
+        justify-content: space-between;
     }
 
+    .menu-toggle {
+        display: block; /* Shows the ☰ icon */
+        z-index: 1001;
+    }
+
+    /* 2. Full-Width Mobile Menu Fix */
     .nav-links {
+        position: absolute;
+        top: 60px; /* Aligns right under the navbar */
+        left: 0;
+        width: 100%;
+        background-color: #1E6B3A;
         flex-direction: column;
         align-items: center;
         padding: 0;
+        margin: 0;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.4s ease-in-out;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    .nav-links.active {
+        max-height: 400px; /* Enough height for all links */
     }
 
     .nav-links li {
-        margin: 10px 0;
+        margin: 0; /* Removes the 50px desktop margin */
+        width: 100%;
+        text-align: center;
     }
 
+    .nav-links li a {
+        display: block;
+        padding: 15px 0;
+        font-size: 18px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    /* 3. Hero Section (Chocolates Hills) */
     .coverTitle h1 {
         font-size: 32px;
     }
 
-    .coverTitle p,
-    .coverTitle h3 {
+    .coverTitle p, .coverTitle h3 {
         font-size: 18px;
+        padding: 0 10px;
     }
 
+    #home {
+        padding: 20% 0;
+    }
+
+    /* 4. Product Category Grid (1 Column) */
     .categories {
-        grid-template-columns: 1fr; /* 1 column */
+        grid-template-columns: 1fr;
         padding: 20px;
+        gap: 20px;
     }
 
+    /* 5. Commitment Cards (1 Column) */
     .catComs {
-        grid-template-columns: 1fr; /* 1 column */
+        grid-template-columns: 1fr;
         padding: 20px;
     }
 
-    .card img {
-        height: 200px;
+    /* 6. Sustainable Development Goals (SDG) Cards */
+    .sdgCards {
+        max-width: 90%;
     }
 
-    .headcomm h1,
-    .sdgHeading h1,
-    .culturalBox h1,
-    .lastCont h1 {
-        font-size: 30px;
-    }
-
-    .headcomm p,
-    .sdgHeading p,
-    .culturalBox p,
-    .lastCont p {
+    .sdgCardBody p {
         font-size: 16px;
     }
 
-    .impactItem h2 {
-        font-size: 30px;
+    /* 7. Footer & Last Section */
+    .lastSect {
+        text-align: center;
     }
 
-    .impactItem p {
-        font-size: 14px;
+    .list1 ul {
+        padding: 0;
+        list-style: none;
     }
 
-    .impactIcon {
-        width: 60px;
-        height: 60px;
+    .soclist ul {
+        justify-content: center;
     }
 
-    .impactIcon img {
-        width: 30px;
-        height: 30px;
-    }
-
-    .culturalBox {
-        padding: 20px;
-    }
-}
-
-
-/* 📱 TABLET (769px - 1024px) */
-
-@media (min-width: 769px) and (max-width: 1024px) {
-
-    .categories {
-        grid-template-columns: repeat(2, 1fr); /* 2 columns */
-    }
-
-    .catComs {
-        grid-template-columns: repeat(2, 1fr); /* 2 columns */
-    }
-
-    .coverTitle h1 {
-        font-size: 40px;
-    }
-
-    .coverTitle p {
+    .cont1 h3 {
         font-size: 20px;
-    }
-
-    .impactItem h2 {
-        font-size: 35px;
-    }
-}
-
-
-/* 💻 SMALL LAPTOP FIX */
-
-@media (max-width: 1200px) {
-
-    .categories {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .catComs {
-        grid-template-columns: repeat(3, 1fr);
     }
 }
