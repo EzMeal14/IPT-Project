@@ -311,6 +311,12 @@ body {
     padding: 70px;
 }
 
+.catComs a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
 .cardContentCom{
     padding: 5%;
 }
@@ -409,13 +415,22 @@ footer{
     margin-bottom: 90px;
     width: 200px;
 }
+.coverTitle2 img {
+    margin-bottom: 100px;
+    width: 170px;
+    height: 150px;
+}
 .lastCont{
     padding-top: 30px;
     padding-bottom: 80px;
     margin: 0 5%;
     text-align: center;
 }
-
+.list1 a{
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
 .lastCont h1{
     font-size: 50px;
 }
