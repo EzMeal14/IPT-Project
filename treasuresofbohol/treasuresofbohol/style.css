@@ -435,6 +435,7 @@ footer{
 }
 
 .mlist p{
+    font-size: 20px;
     text-align: center;
     margin: 5%;
     margin-top: 0%;
@@ -451,6 +452,7 @@ footer{
 }
 
 .vlist p{
+    font-size: 20px;
     text-align: center;
     margin: 5%;
     margin-top: 0%;
@@ -459,4 +461,90 @@ footer{
 .list1 ul li a{
     text-decoration: underline;
     color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* SDG Section */
+.sdgSection {
+    padding: 5% 5%;
+}
+
+.sdgHeading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.sdgHeading h1 {
+    font-size: 50px;
+}
+
+.sdgHeading p {
+    font-size: 20px;
+    color: #555;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.sdgCards {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.sdgCard {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.sdgCardHeader {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 20px 25px;
+}
+
+.sdgCardHeader img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    background: white;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.sdgCardHeader h2 {
+    color: white;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.sdgRed   { background-color: #C0272D; }
+.sdgOrange { background-color: #F36D25; }
+.sdgYellow { background-color: #DDA73A; }
+
+.sdgCardBody {
+    background-color: #e8e8e8;
+    padding: 25px 30px;
+}
+
+.sdgCardBody p {
+    font-size: 16px;
+    color: #444;
+    text-align: center;
+    line-height: 1.7;
+    margin: 0;
 }
