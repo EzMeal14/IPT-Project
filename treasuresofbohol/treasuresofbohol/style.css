@@ -311,6 +311,12 @@ body {
     padding: 70px;
 }
 
+.catComs a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
 .cardContentCom{
     padding: 5%;
 }
@@ -409,13 +415,22 @@ footer{
     margin-bottom: 90px;
     width: 200px;
 }
+.coverTitle2 img {
+    margin-bottom: 100px;
+    width: 170px;
+    height: 150px;
+}
 .lastCont{
     padding-top: 30px;
     padding-bottom: 80px;
     margin: 0 5%;
     text-align: center;
 }
-
+.list1 a{
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
 .lastCont h1{
     font-size: 50px;
 }
@@ -424,16 +439,200 @@ footer{
     font-size: 20px;
 }
 
-.sdgSection{
+.Mission{
     text-align: center;
     padding-top: 5%;
 }
 
-.vmlist h1{
+.mlist h1{
+    text-align: center;
     font-size: 50px;
+}
+
+.mlist p{
+    font-size: 20px;
+    text-align: center;
+    margin: 5%;
+    margin-top: 0%;
+}
+
+.Vision{
+    text-align: center
+    padding-top 5%;
+}
+
+.vlist h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.vlist p{
+    font-size: 20px;
+    text-align: center;
+    margin: 5%;
+    margin-top: 0%;
 }
 
 .list1 ul li a{
     text-decoration: underline;
     color: white;
+}
+
+
+.sdgSection {
+    padding-bottom: 5%;
+}
+
+.sdgHeading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.sdgHeading h1 {
+    font-size: 50px;
+}
+
+.sdgHeading p {
+    font-size: 20px;
+    color: #555;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.sdgCards {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.sdgCard {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.sdgCardHeader {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 20px 25px;
+}
+
+.sdgCardHeader img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    background: white;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.sdgCardHeader h2 {
+    color: white;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.sdgRed   { background-color: #C0272D; }
+.sdgOrange { background-color: #F36D25; }
+.sdgYellow { background-color: #DDA73A; }
+
+.sdgCardBody {
+    background-color: #e8e8e8;
+    padding: 25px 30px;
+}
+
+.sdgCardBody p {
+    font-size: 20px;
+    color: #444;
+    text-align: center;
+    line-height: 1.7;
+    margin: 0;
+}
+
+
+.impactSection {
+    background-color: #1E6B3A;
+    padding: 5% 10%;
+    text-align: center;
+}
+
+.impactSection h1 {
+    color: white;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 40px;
+}
+
+.impactGrid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.impactItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.impactIcon {
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.impactIcon img {
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
+}
+
+.impactItem h2 {
+    color: white;
+    font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.impactItem p {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+.culturalSection {
+    padding: 5% 8%;
+    background-color: #ffffff;
+}
+
+.culturalBox {
+    border: 3px solid #1E6B3A;
+    border-radius: 10px;
+    padding: 40px 60px;
+    text-align: center;
+}
+
+.culturalBox h1 {
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+}
+
+.culturalBox p {
+    font-size: 20px;
+    color: #333;
+    line-height: 1.8;
+    margin-bottom: 15px;
 }
