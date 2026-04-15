@@ -457,7 +457,7 @@ footer{
 }
 
 .Vision{
-    text-align: center
+    text-align: center;
     padding-top 5%;
 }
 
@@ -635,4 +635,124 @@ footer{
     color: #333;
     line-height: 1.8;
     margin-bottom: 15px;
+}
+
+
+/* 📱 MOBILE (max-width: 768px) */
+
+@media (max-width: 768px) {
+
+    .navbar {
+        flex-direction: column;
+        padding: 10px 20px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .coverTitle h1 {
+        font-size: 32px;
+    }
+
+    .coverTitle p,
+    .coverTitle h3 {
+        font-size: 18px;
+    }
+
+    .categories {
+        grid-template-columns: 1fr; /* 1 column */
+        padding: 20px;
+    }
+
+    .catComs {
+        grid-template-columns: 1fr; /* 1 column */
+        padding: 20px;
+    }
+
+    .card img {
+        height: 200px;
+    }
+
+    .headcomm h1,
+    .sdgHeading h1,
+    .culturalBox h1,
+    .lastCont h1 {
+        font-size: 30px;
+    }
+
+    .headcomm p,
+    .sdgHeading p,
+    .culturalBox p,
+    .lastCont p {
+        font-size: 16px;
+    }
+
+    .impactItem h2 {
+        font-size: 30px;
+    }
+
+    .impactItem p {
+        font-size: 14px;
+    }
+
+    .impactIcon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .impactIcon img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .culturalBox {
+        padding: 20px;
+    }
+}
+
+
+/* 📱 TABLET (769px - 1024px) */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    .categories {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    }
+
+    .catComs {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    }
+
+    .coverTitle h1 {
+        font-size: 40px;
+    }
+
+    .coverTitle p {
+        font-size: 20px;
+    }
+
+    .impactItem h2 {
+        font-size: 35px;
+    }
+}
+
+
+/* 💻 SMALL LAPTOP FIX */
+
+@media (max-width: 1200px) {
+
+    .categories {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .catComs {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
