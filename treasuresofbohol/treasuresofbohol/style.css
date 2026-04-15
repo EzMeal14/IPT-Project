@@ -463,17 +463,6 @@ footer{
     color: white;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 /* SDG Section */
 .sdgSection {
     padding: 5% 5%;
@@ -546,5 +535,63 @@ footer{
     color: #444;
     text-align: center;
     line-height: 1.7;
+    margin: 0;
+}
+
+/* Our Impact Section */
+.impactSection {
+    background-color: #1E6B3A;
+    padding: 5% 10%;
+    text-align: center;
+}
+
+.impactSection h1 {
+    color: white;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 40px;
+}
+
+.impactGrid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.impactItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.impactIcon {
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.impactIcon img {
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
+}
+
+.impactItem h2 {
+    color: white;
+    font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.impactItem p {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
     margin: 0;
 }
