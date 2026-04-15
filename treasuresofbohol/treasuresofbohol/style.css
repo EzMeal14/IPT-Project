@@ -424,13 +424,36 @@ footer{
     font-size: 20px;
 }
 
-.sdgSection{
+.Mission{
     text-align: center;
     padding-top: 5%;
 }
 
-.vmlist h1{
+.mlist h1{
+    text-align: center;
     font-size: 50px;
+}
+
+.mlist p{
+    text-align: center;
+    margin: 5%;
+    margin-top: 0%;
+}
+
+.Vision{
+    text-align: center
+    padding-top 5%;
+}
+
+.vlist h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.vlist p{
+    text-align: center;
+    margin: 5%;
+    margin-top: 0%;
 }
 
 .list1 ul li a{
