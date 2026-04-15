@@ -463,9 +463,9 @@ footer{
     color: white;
 }
 
-/* SDG Section */
+
 .sdgSection {
-    padding: 5% 5%;
+    padding-bottom: 5%;
 }
 
 .sdgHeading {
@@ -531,14 +531,14 @@ footer{
 }
 
 .sdgCardBody p {
-    font-size: 16px;
+    font-size: 20px;
     color: #444;
     text-align: center;
     line-height: 1.7;
     margin: 0;
 }
 
-/* Our Impact Section */
+
 .impactSection {
     background-color: #1E6B3A;
     padding: 5% 10%;
@@ -594,4 +594,30 @@ footer{
     font-size: 18px;
     font-weight: bold;
     margin: 0;
+}
+
+
+.culturalSection {
+    padding: 5% 8%;
+    background-color: #ffffff;
+}
+
+.culturalBox {
+    border: 3px solid #1E6B3A;
+    border-radius: 10px;
+    padding: 40px 60px;
+    text-align: center;
+}
+
+.culturalBox h1 {
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+}
+
+.culturalBox p {
+    font-size: 20px;
+    color: #333;
+    line-height: 1.8;
+    margin-bottom: 15px;
 }
